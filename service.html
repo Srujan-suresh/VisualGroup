@@ -37,7 +37,7 @@
             <div class="row justify-content-between">
                 <div class="col-lg-6 col-md-6">
                     <div class="social__links">
-                        <a class="link__item gap-10" href="callto:#"><i class="flaticon-phone-flip"></i> +91 6366377789</a>
+                        <a class="link__item gap-10" href="callto:#"><i class="flaticon-phone-flip"></i> +91 6366377791</a>
                         <a class="link__item gap-10" href="mailto:#"><i class="flaticon-envelope"></i> visualgroupassociate@gmail.com</a>
                     </div>
                 </div>
@@ -89,8 +89,13 @@
                                 <li class="navigation__menu--item">
                                     <a href="activities.html" class="navigation__menu--item__link">Brochures</a>
                                 </li>
-                                <li class="navigation__menu--item">
-                                    <a href="room-one.html" class="navigation__menu--item__link">Rewards</a>
+                                
+                                <li class="navigation__menu--item has-child has-arrow">
+                                    <a href="#" class="navigation__menu--item__link">Rewards</a>
+                                    <ul class="submenu sub__style" role="menu">
+                                        <li role="menuitem"><a href="room-one.html">Season 1 </a></li>
+                                        <li role="menuitem"><a href="room-two.html">Season 2</a></li>
+                                    </ul>
                                 </li>
                                 <li class="navigation__menu--item">
                                     <a href="blog.html" class="navigation__menu--item__link">Business</a>
@@ -117,7 +122,7 @@
     <!-- header area end -->
 
     <!-- page header -->
-    <div class="rts__section page__hero__height page__hero__bg" style="background-image: url(assets/newimgs/banner/Srujan\ photo\ 6.jpg);">
+    <div class="rts__section page__hero__height page__hero__bg" style="background-image: url(assets/newimgs/banner/Srujan\ web\ 1\ \(1\).jpg);">
         <div class="container">
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-12">
@@ -151,9 +156,9 @@
             <!-- Service 1 -->
             <div class="col-md-6 col-lg-4 mb-4 wow fadeInUp" data-wow-delay=".1s">
               <div class="service-box p-4 border rounded shadow-sm h-100">
-                <h5>₹1,000/Month Lucky Draw Membership</h5>
+                <h5>₹1,000/Month Gold Scheme Membership</h5>
                 <p class="font-sm mt-2">
-                  Join our exclusive 12-month scheme and become eligible for monthly lucky draws featuring grand prizes.
+                  Join our exclusive 20-month scheme and become eligible for monthly gold schemes featuring grand prizes.
                 </p>
               </div>
             </div>
@@ -226,9 +231,9 @@
                     <div class="service__content">
                         <div class="section__content__left">
                             <span class="h6 subtitle__icon__two d-block wow fadeInUp">Visual Gold Scheme</span>
-                            <h2 class="content__title h3 lh-1">Lucky Draw Membership</h2>
+                            <h2 class="content__title h3 lh-1">Gold Scheme Membership</h2>
                         </div>
-                        <p class="font-sm mt-30 wow fadeInUp">Join our ₹1000/month plan and get a chance to win grand prizes like cars, gold, bikes, and home appliances through our transparent lucky draw system.</p>
+                        <p class="font-sm mt-30 wow fadeInUp">Join our ₹1000/month plan and get a chance to win grand prizes like cars, gold, bikes, and home appliances through our transparent gold scheme system.</p>
                         <a href="#" class="underline__style wow fadeInUp" data-wow-delay=".4s">Read More</a>
                     </div>
                 </div>
@@ -268,105 +273,100 @@
 
         <!-- client testimonial  -->
        <!-- facilities -->
-    <style>
-        .testimonial-section {
-          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-          background-color: #f8f9fa;
-          padding: 2rem;
-          max-width: 1200px;
-          margin: auto;
-        }
     
-        .testimonial-section .testimonial-header {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          margin-bottom: 2rem;
-        }
-    
-        .testimonial-section .testimonial-header h2 {
-          margin: 0;
-        }
-    
-        .testimonial-section .slider__navigation {
-          display: none; /* Hide nav buttons since Swiper is removed */
-        }
-    
-        .testimonial-section .testimonial-grid {
-          display: grid;
-          grid-template-columns: 1fr;
-          gap: 2rem;
-        }
-    
-        @media (min-width: 768px) {
-          .testimonial-section .testimonial-grid {
-            grid-template-columns: repeat(2, 1fr);
-          }
-        }
-    
-        @media (min-width: 1024px) {
-          .testimonial-section .testimonial-grid {
-            grid-template-columns: repeat(3, 1fr);
-          }
-        }
-    
-        .testimonial-section .testimonial-card {
-          background: #fff;
-          border-radius: 12px;
-          box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
-          padding: 1.5rem;
-          height: 100%;
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          transition: box-shadow 0.3s ease;
-        }
-    
-        .testimonial-section .testimonial-card:hover {
-          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-        }
-    
-        .testimonial-section .author-info {
-          display: flex;
-          align-items: center;
-          margin-bottom: 1rem;
-        }
-    
-        .testimonial-section .author-info img {
-          width: 60px;
-          height: 60px;
-          border-radius: 50%;
-          object-fit: cover;
-          margin-right: 1rem;
-        }
-    
-        .testimonial-section .slider__rating i {
-          color: #ffc107;
-          margin-right: 2px;
-        }
-      </style>
-    </head>
-    <body>
-    
-      <div class="testimonial-section">
-        <div class="testimonial-header">
-          <div>
-            <span class="h6 subtitle__icon__five d-block">Dream Achievers</span>
-            <h2 class="content__title h2 lh-1">Our Dream Achievers</h2>
-          </div>
-          <!-- Navigation hidden since Swiper is removed -->
-        </div>
-    
-        <div class="testimonial-grid">
-            <!-- Testimonial 1 -->
+<style>
+    /* Scoped Styles */
+    .testimonial-section-wrapper .testimonial-section {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f9fa;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+  
+    .testimonial-section-wrapper .testimonial-header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+  
+    .testimonial-section-wrapper .testimonial-header h2 {
+      margin: 0;
+      font-weight: bold;
+    }
+  
+    .testimonial-section-wrapper .testimonial-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+      padding: 1.5rem;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: box-shadow 0.3s ease;
+      text-align: center;
+    }
+  
+    .testimonial-section-wrapper .testimonial-card:hover {
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+  
+    .testimonial-section-wrapper .testimonial-card img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+  
+    .testimonial-section-wrapper .slider__rating {
+      margin-bottom: 0.5rem;
+    }
+  
+    .testimonial-section-wrapper .slider__rating i {
+      color: #ffc107;
+      margin-right: 2px;
+    }
+  
+    .testimonial-section-wrapper .testimonial-card h6 {
+      margin: 0;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+  
+    .testimonial-section-wrapper .testimonial-card small {
+      display: block;
+      color: #888;
+      margin-bottom: 1rem;
+    }
+  
+    .testimonial-section-wrapper .testimonial-card p {
+      font-style: italic;
+      font-size: 0.95rem;
+    }
+  
+    .testimonial-section-wrapper .swiper-button-next,
+    .testimonial-section-wrapper .swiper-button-prev {
+      color: #000;
+    }
+  </style>
+  
+  <div class="testimonial-section-wrapper">
+    <div class="testimonial-section">
+      <div class="testimonial-header">
+        <span class="h6 subtitle__icon__five d-block">Dream Achievers</span>
+        <h2>Our Dream Achievers</h2>
+        <p>Meet our winners and customers whose dreams came true with Visual Group.</p>
+      </div>
+  
+      <div class="swiper myTestimonialSlider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
             <div class="testimonial-card">
-              <div class="author-info">
-                <img src="assets/images/author/author-2x.webp" alt="Sabeer Kottikulam" />
-                <div>
-                  <h6 class="mb-0">Sabeer Kottikulam</h6>
-                  <small>Gold Scheme Winner</small>
-                </div>
-              </div>
+              <!-- <img src="assets/images/author/author-1.png" alt="Sabeer Kottikulam" /> -->
+             
+              <h6>Sabeer Kottikulam</h6>
+              <small>Gold Scheme Winner</small>
               <div class="slider__rating mb-2">
                 <i class="flaticon-star"></i>
                 <i class="flaticon-star"></i>
@@ -375,17 +375,14 @@
                 <i class="flaticon-star"></i>
               </div>
               <p>"Visual Group made it possible for me to buy gold through easy monthly payments. Truly grateful!"</p>
+              
             </div>
-          
-            <!-- Testimonial 2 -->
+          </div>
+          <div class="swiper-slide">
             <div class="testimonial-card">
-              <div class="author-info">
-                <img src="assets/images/author/author-5.webp" alt="Shabna V" />
-                <div>
-                  <h6 class="mb-0">Shabna V</h6>
-                  <small>Lucky Draw Participant</small>
-                </div>
-              </div>
+             
+              <h6>Shabna V</h6>
+              <small>Royal Enfield Winner</small>
               <div class="slider__rating mb-2">
                 <i class="flaticon-star"></i>
                 <i class="flaticon-star"></i>
@@ -395,16 +392,12 @@
               </div>
               <p>"I won a brand new Royal Enfield Bike! Thank you Visual Group for turning dreams into reality."</p>
             </div>
-          
-            <!-- Testimonial 3 -->
+          </div>
+          <div class="swiper-slide">
             <div class="testimonial-card">
-              <div class="author-info">
-                <img src="assets/images/author/author-5.webp" alt="Nizam Kanhangad" />
-                <div>
-                  <h6 class="mb-0">Nizam Kanhangad</h6>
-                  <small>Furniture Customer</small>
-                </div>
-              </div>
+              
+              <h6>Nizam Kanhangad</h6>
+              <small>Furniture Customer</small>
               <div class="slider__rating mb-2">
                 <i class="flaticon-star"></i>
                 <i class="flaticon-star"></i>
@@ -414,11 +407,46 @@
               </div>
               <p>"The best place to buy quality furniture at affordable prices. Highly satisfied with the service."</p>
             </div>
-          </div>          
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+           
+              <h6>Aisha Rahman</h6>
+              <small>Gold Scheme Winner</small>
+              <div class="slider__rating mb-2">
+                <i class="flaticon-star"></i>
+                <i class="flaticon-star"></i>
+                <i class="flaticon-star"></i>
+                <i class="flaticon-star"></i>
+                <i class="flaticon-star"></i>
+              </div>
+              <p>"Winning gold with Visual Group was a dream come true. The process was smooth and transparent."</p>
+            </div>
+          </div>
         </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
       </div>
-    
+    </div>
+  </div>
   
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".myTestimonialSlider", {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      loop: true,
+      navigation: {
+        nextEl: ".testimonial-section-wrapper .swiper-button-next",
+        prevEl: ".testimonial-section-wrapper .swiper-button-prev",
+      },
+      breakpoints: {
+        768: { slidesPerView: 2 },
+        1024: { slidesPerView: 3 }
+      }
+    });
+  </script>
   
     <!-- facilities end -->
 
@@ -580,7 +608,7 @@
                             </a>
                         </div>
                         <p class="description">
-                            Visual Group Associates empowers dreams through transparent lucky draw schemes and real rewards like gold, vehicles, and home essentials. Join the journey towards a brighter future.
+                            Visual Group Associates empowers dreams through transparent gold schemes and real rewards like gold, vehicles, and home essentials. Join the journey towards a brighter future.
                         </p>
                     </div>
                     <div class="offcanvase__mobile__menu">
@@ -591,8 +619,14 @@
 
                             <div class="item">
                                 <span class="h6">Phone</span>
-                                <a href="tel:+91 6366377789
-                                "><i class="flaticon-phone-flip"></i> +91 6366377789
+                                <a href="tel:+91 6366377791
+                                "><i class="flaticon-phone-flip"></i> +91 6366377791
+                                </a>
+                                <a href="tel:+91 6366377792
+                                "><i class="flaticon-phone-flip"></i> +91 6366377792
+                                </a>
+                                <a href="tel:+91 6366377793
+                                "><i class="flaticon-phone-flip"></i> +91 6366377793
                                 </a>
                             </div>
                             <div class="item">
@@ -638,8 +672,13 @@
                                     </a>
                                 </li>
                                 <li class="slide has__children">
-                                    <a class="slide__menu__item" href="room-one.html">Rewards
+                                    <a class="slide__menu__item" href="#">Rewards
+                                        <span class="toggle"></span>
                                     </a>
+                                    <ul class="slide__menu">
+                                        <li><a href="room-one.html">Season 1</a></li>
+                                        <li><a href="room-two.html">Season 2</a></li>
+                                    </ul>
                                 </li>
                                 <li class="slide has__children">
                                     <a class="slide__menu__item" href="blog.html">Buisness
@@ -688,7 +727,7 @@
                             <img class="logo__class" src="assets/newimgs/logo copy.jpg" style="width: 90px; height: 85px; margin-left: 0px;" alt="moonlit">
                         </a>
                         <p class="font-sm max-290 mt-20">
-                            Visual Group Associates empowers dreams through transparent lucky draw schemes and real rewards like gold, vehicles, and home essentials. Join the journey towards a brighter future.
+                            Visual Group Associates empowers dreams through transparent gold schemes and real rewards like gold, vehicles, and home essentials. Join the journey towards a brighter future.
                         </p>
                     </div>
                     <div class="rts__widget">
@@ -714,11 +753,14 @@
                     <div class="rts__widget">
                         <span class="widget__title">Contact Us</span>
                         <ul>
-                            <li><a aria-label="footer__contact" href="tel:+91 6366377789"><i class="flaticon-phone-flip"></i> +91 6366377789</a></li>
                             <li><a aria-label="footer__contact" href="tel:+91 6366377791"><i class="flaticon-phone-flip"></i> +91 6366377791</a></li>
+                            <li><a aria-label="footer__contact" href="tel:+91 6366377792"><i class="flaticon-phone-flip"></i> +91 6366377792</a></li>
+                            <li><a aria-label="footer__contact" href="tel:+91 6366377793"><i class="flaticon-phone-flip"></i> +91 6366377793</a></li>
                             <li><a aria-label="footer__contact" href="mailto:visualgroupassociate@gmail.com"><i class="flaticon-envelope"></i>visualgroupassociate@gmail.com</a></li>
                             <li><a aria-label="footer__contact" href="#"><i class="flaticon-marker"></i>No. 7/6, 1st Floor, Sanjay Nagar,<br><br> Geddalahalli,  Bangalore-560094
 
+                            </a></li>
+                            <li><a aria-label="footer__contact" href="#"><i class="flaticon-marker"></i>No. 137/5, SS Plaza SM Road,<br><br> Jalahalli West, Bangalore - 560050
                             </a></li>
                         </ul>
                     </div>
